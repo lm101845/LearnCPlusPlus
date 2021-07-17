@@ -1,0 +1,4 @@
+﻿  08-实型(浮点型).cpp
+D:\02-looking for job\00-Project\08-LearnC++★\LearnCPlusPlus\01-黑马\02-代码手敲\第1阶段-入门编程\day01\08-实型(浮点型).cpp(31,17): warning C4305: “初始化”: 从“double”到“float”截断
+LINK : warning LNK4075: 忽略“/INCREMENTAL”(由于“/FORCE”规范)
+  day01.vcxproj -> D:\02-looking for job\00-Project\08-LearnC++★\LearnCPlusPlus\01-黑马\02-代码手敲\第1阶段-入门编程\day01\Debug\day01.exe

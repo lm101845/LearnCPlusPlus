@@ -1,0 +1,14 @@
+﻿  01-C++书写HelloWorld.cpp
+  02-注释.cpp
+  03-变量.cpp
+  04-常量.cpp
+  05-关键字.cpp
+  06-标识符命名规则.cpp
+  07-整型.cpp
+  正在生成代码...
+03-变量.obj : error LNK2005: main 已经在 01-C++书写HelloWorld.obj 中定义
+04-常量.obj : error LNK2005: main 已经在 01-C++书写HelloWorld.obj 中定义
+05-关键字.obj : error LNK2005: main 已经在 01-C++书写HelloWorld.obj 中定义
+06-标识符命名规则.obj : error LNK2005: main 已经在 01-C++书写HelloWorld.obj 中定义
+07-整型.obj : error LNK2005: main 已经在 01-C++书写HelloWorld.obj 中定义
+D:\02-looking for job\00-Project\08-LearnC++★\LearnCPlusPlus\01-黑马\02-代码手敲\第1阶段-入门编程\day01\x64\Debug\day01.exe : fatal error LNK1169: 找到一个或多个多重定义的符号
