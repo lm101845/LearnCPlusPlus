@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Widget</class>
+ <widget class="QWidget" name="Widget">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>400</width>
+    <height>300</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Widget</string>
+  </property>
+  <layout class="QGridLayout" name="gridLayout">
+   <item row="0" column="0">
+    <widget class="QTreeWidget" name="treeWidget">
+     <column>
+      <property name="text">
+       <string>英雄</string>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>英雄介绍</string>
+      </property>
+     </column>
+     <item>
+      <property name="text">
+       <string>德玛</string>
+      </property>
+      <item>
+       <property name="text">
+        <string>上单</string>
+       </property>
+       <property name="text">
+        <string>坦克攻高防厚</string>
+       </property>
+      </item>
+     </item>
+     <item>
+      <property name="text">
+       <string>盲僧</string>
+      </property>
+      <item>
+       <property name="text">
+        <string>打野</string>
+       </property>
+       <property name="text">
+        <string>战士攻高防少</string>
+       </property>
+      </item>
+     </item>
+     <item>
+      <property name="text">
+       <string>提莫</string>
+      </property>
+      <item>
+       <property name="text">
+        <string>上单</string>
+       </property>
+       <property name="text">
+        <string>战士，攻少防少</string>
+       </property>
+      </item>
+     </item>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <resources/>
+ <connections/>
+</ui>
