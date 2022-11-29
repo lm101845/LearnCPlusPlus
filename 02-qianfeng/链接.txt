@@ -10,6 +10,8 @@ https://www.bilibili.com/video/BV12a4y1W7iW?p=1
 软件：
 https://pan.baidu.com/s/1Wh4TTdOPEg6G49YuNjUiPw  提取码：kjas
 
+项目-run-run in terminal,取消选中再继续选中，此时运行项目，才能到外部控制台看到结果。
+
 第1集看完 ——22-11-25
 第2-6集看完 ——22-11-26 
-test
+第7-10集看完 ——22-11-29
