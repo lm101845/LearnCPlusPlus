@@ -1,8 +1,10 @@
 //2022年11月29日20:26:00
+//2022年12月10日21:32:31
 #include <iostream>
 
 using namespace std;
 int a = 10;   //全局变量
+int apple = 8888;
 void test01()
 {
     int a = 20;   //局部变量(可以同名，但尽量不要同名)
@@ -79,12 +81,64 @@ void test05()
 {
     D::foo();
 }
+
+namespace veryLongName {
+    int apple = 100;
+    void func() { cout << "hello namespace" << endl; }
+}
+
+void test06()
+{
+    int apple = 250;
+    //命名空间.属性或命名空间.方法，这是最安全的使用命名空间的方式
+    //但是有人很懒，不想写这么长的【命名空间.】，就想直接写属性或方法名
+    //可以的，使用一个using方法
+    cout << "apple=" << veryLongName::apple << endl;
+    veryLongName::func();
+    //表明使用veryLongName命名空间，则下方出现的变量，先从这个命名空间去找
+    //找不到才从其他地方找，实在找不到也会报错
+    using namespace veryLongName;
+    cout << "apple=" << apple << endl;   //250 优先局部变量
+    func();
+}
+
+void test07()
+{
+    //int apple = 300;    这样会报错'apple' is already declared in this scope
+    // 通过using直接使用命名空间中的成员，会和局部变量冲突
+    //但是它不会和全局变量冲突(它隐藏了全局变量的作用域 ::)
+    
+    //指明使用命名空间中的具体成员 
+    using  veryLongName::apple;
+    cout << "命名空间中的apple=" << apple << endl;
+    //但是func使用的时候，必须加作用域
+    cout << "全局变量中的apple=" << ::apple << endl;
+}
+
+namespace C {
+    //函数重载——C语言不支持
+    void func() { cout << "无参的func" << endl; }
+    void func(int a) { cout << "int的func" << endl; }
+    void func(int a,int b) { cout << "int int的func" << endl;}
+}
+
+void test08()
+{
+    //using指明使用C中的func
+    using C::func;
+    func();
+    func(10);
+	func(10, 20);
+}
 int main(int argc, char *argv[])
 {
     //test01();
     //test02();
     //test03();
     //test04();
-    test05();
+    //test05();
+    //test06();
+    //test07();
+    test08();
     return 0;
 }
