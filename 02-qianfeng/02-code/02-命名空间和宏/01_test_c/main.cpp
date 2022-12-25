@@ -96,13 +96,59 @@ void test04()
 	cout << *p << endl;
 }
 
-void test05()
+//void test05()
+//{
+//    cout << "apple=" << apple << endl;   //不识别num err
+//	int* p = (int*)&apple;
+//	*p = 2000;
+//	cout << *p << endl;
+//	cout << apple << endl;  
+//}
+
+#define MAX 1024
+//宏是没有类型的
+const short my_max = 1024;
+
+void func(short i)
 {
-    cout << "apple=" << apple << endl;   //不识别num err
-	int* p = (int*)&apple;
-	*p = 2000;
-	cout << *p << endl;
-	cout << apple << endl;  
+	cout << "short函数" << endl;
+}
+
+void func(int i)
+{
+	cout << "int函数" << endl;
+}
+void test06()
+{
+	func(MAX);
+	func(my_max);
+}
+
+void my_func(void)
+{
+	//作用范围是当前复合语句
+	const int num_const = 10;
+	//作用范围是当前位置到文件结束
+	#define MY_NUM_DEFINE 10
+}
+void test07()
+{
+	//cout << num_const << endl;   err 不识别
+	cout << MY_NUM_DEFINE << endl;  //可以识别
+}
+
+namespace AA {
+	//const可以作为成员
+	const int my_a = 100;
+	#define MY_A 200
+	//它只是在这个位置定义了一个宏，但是这个宏不属于这个命名空间的，它是属于文件的
+}
+void test08()
+{
+	cout << "my_a=" << AA::my_a << endl;
+	//cout << "my_a=" << AA::MY_A << endl;  //报错
+	cout << "MY_A=" << MY_A << endl;
+	
 }
 
 int main(int argc, char* argv[]) 
@@ -112,5 +158,8 @@ int main(int argc, char* argv[])
 	//test03();
 	//test04();
 	//test05();
+	//test06();
+	//test07();
+	test08();
 	return 0;
 }

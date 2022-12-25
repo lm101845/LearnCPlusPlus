@@ -1,0 +1,4 @@
+﻿  02_引用作用于数组.cpp
+E:\01-code\08-LearnCPlusPlus\LearnCPlusPlus\02-qianfeng\02-code\03-引用\02_引用作用于数组.cpp(7,2): error C3872: “0xa0”: 此字符不允许在标识符中使用
+E:\01-code\08-LearnCPlusPlus\LearnCPlusPlus\02-qianfeng\02-code\03-引用\02_引用作用于数组.cpp(7,2): error C2065: “int arr”: 未声明的标识符
+E:\01-code\08-LearnCPlusPlus\LearnCPlusPlus\02-qianfeng\02-code\03-引用\02_引用作用于数组.cpp(12,11): error C2065: “arr”: 未声明的标识符
