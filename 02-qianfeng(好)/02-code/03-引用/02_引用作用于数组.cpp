@@ -46,6 +46,6 @@ void test02()
 int main(int argc, char* argv[])
 {
 	//test01();
-	test02();
+	//test02();
 	system("PAUSE");
 }
