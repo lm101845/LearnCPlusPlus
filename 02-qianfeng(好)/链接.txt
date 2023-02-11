@@ -11,7 +11,8 @@ https://www.bilibili.com/video/BV12a4y1W7iW?p=1
 https://pan.baidu.com/s/1Wh4TTdOPEg6G49YuNjUiPw  提取码：kjas
 
 项目-run-run in terminal,取消选中再继续选中，此时运行项目，才能到外部控制台看到结果。
-(这个QT软件太TM难用了，而且还丑，我后面用的就是visual studio了)
+
+(吐槽一下，这个QT软件太TM难用了，而且还丑，我后面用的就是visual studio了)
 
 第1集看完 ——22-11-25
 第2-6集看完 ——22-11-26 
@@ -21,4 +22,6 @@ https://pan.baidu.com/s/1Wh4TTdOPEg6G49YuNjUiPw  提取码：kjas
 第20-23集看完 ——22-12-25
 第24-29集看完 ——23-02-04——立春
 第30-31集看完 ——23-02-06
+第32集看完 ——23-02-10
+第33-40集看完 ——23-02-11
 
