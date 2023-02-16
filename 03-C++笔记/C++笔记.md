@@ -122,3 +122,65 @@ gcc和g++的主要区别
 #define __private_extern__ extern
 
 \6.        在用gcc编译c++文件时，为了能够使用STL，需要加参数 –lstdc++ ，但这并不代表 gcc –lstdc++ 和 g++等价。
+
+## 问题5
+
+**在C与C++中定义结构体的区别**
+
+> https://blog.csdn.net/xhluojinji/article/details/89845799
+
+在C中定义一个结构体：（注意C里定义结构体一般都会使用关键字typedef）
+
+~~~c
+typedef struct Student
+{
+    int a;
+}stu;
+~~~
+
+上面的含义是指：给struct Student 起了个别名叫做stu，所以struct Student就等同于stu,两者都相当于结构体的标识符，当我们想要声明结构变量的时候，就可以使用如下命令：
+
+~~~c
+stu stu1;
+//或者用
+struct Student stu1;
+
+stu <===>struct Student
+~~~
+
+上面的两种形式是等价的；
+
+**而该结构体去掉typedef关键字，就只能使用第二种方式声明结构变量了；去掉Student这一词，就只能使用第一种方式声明了。**
+
+在C++中定义一个结构体相对简单一些，
+
+~~~c
+struct Student
+{
+    int a;
+};
+~~~
+
+我们就能用Student来直接声明变量了，比如直接Student stu3;(C++结构体前面不用写struct)
+
+另外，C++中若要使用typedef的话，要注意：
+
+~~~c
+//使用typedef关键字
+typedef struct Student2
+{
+    int a;
+}stu2;
+
+//不使用typedef关键字
+struct Student
+{
+    int a;
+}stu2;
+~~~
+
+**上面两种情况下，stu2的含义是不同的，第一种stu2相当于一个标签，等同于struct Student2，是结构体的标识符，而第二种的stu2则是一个结构体变量，可以直接访问结构体内的成员的。**
+
+觉得不清楚的大家可以看看我参考的一篇博客：
+
+https://www.cnblogs.com/qyaizs/articles/2039101.html
