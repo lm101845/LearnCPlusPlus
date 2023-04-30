@@ -1,2 +1,2 @@
-﻿  10_拷贝构造的调用.cpp
-  06-类.vcxproj -> E:\01-code\08-LearnCPlusPlus\LearnCPlusPlus\02-qianfeng(好)\02-code\06-类\Debug\06-类.exe
+﻿  12_深拷贝和浅拷贝的问题.cpp
+E:\01-code\08-LearnCPlusPlus\LearnCPlusPlus\02-qianfeng(好)\02-code\06-类\12_深拷贝和浅拷贝的问题.cpp(31,3): error C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
