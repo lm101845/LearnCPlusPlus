@@ -1,0 +1,19 @@
+PAT题目网址：https://pintia.cn/problem-sets/994805260223102976/exam/problems/994805325918486528
+PAT题目代码格式如下：
+#include <iostream>
+using namespace std;
+int main()
+{
+    return 0;
+} 
+自己写的代码格式如下：
+#include<bits/stdc++.h>  
+using namespace std;      
+using gg = long long;
+#include<iostream>
+int main() {      
+	ios::sync_with_stdio(false);  
+	cin.tie(0);   
+	system("PAUSE");
+	return 0;
+}
