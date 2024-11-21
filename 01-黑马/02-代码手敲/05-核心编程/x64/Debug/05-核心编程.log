@@ -1,26 +1,2 @@
-﻿  01-全局区.cpp
-E:\01-code\08-LearnCPlusPlus\LearnCPlusPlus\01-黑马\02-代码手敲\05-核心编程\01-全局区.cpp(26,42): warning C4311: “类型强制转换”: 从“int *”到“int”的指针截断
-E:\01-code\08-LearnCPlusPlus\LearnCPlusPlus\01-黑马\02-代码手敲\05-核心编程\01-全局区.cpp(26,42): warning C4302: “类型强制转换”: 从“int *”到“int”截断
-E:\01-code\08-LearnCPlusPlus\LearnCPlusPlus\01-黑马\02-代码手敲\05-核心编程\01-全局区.cpp(27,42): warning C4311: “类型强制转换”: 从“int *”到“int”的指针截断
-E:\01-code\08-LearnCPlusPlus\LearnCPlusPlus\01-黑马\02-代码手敲\05-核心编程\01-全局区.cpp(27,42): warning C4302: “类型强制转换”: 从“int *”到“int”截断
-E:\01-code\08-LearnCPlusPlus\LearnCPlusPlus\01-黑马\02-代码手敲\05-核心编程\01-全局区.cpp(29,44): warning C4311: “类型强制转换”: 从“int *”到“int”的指针截断
-E:\01-code\08-LearnCPlusPlus\LearnCPlusPlus\01-黑马\02-代码手敲\05-核心编程\01-全局区.cpp(29,44): warning C4302: “类型强制转换”: 从“int *”到“int”截断
-E:\01-code\08-LearnCPlusPlus\LearnCPlusPlus\01-黑马\02-代码手敲\05-核心编程\01-全局区.cpp(30,44): warning C4311: “类型强制转换”: 从“int *”到“int”的指针截断
-E:\01-code\08-LearnCPlusPlus\LearnCPlusPlus\01-黑马\02-代码手敲\05-核心编程\01-全局区.cpp(30,44): warning C4302: “类型强制转换”: 从“int *”到“int”截断
-E:\01-code\08-LearnCPlusPlus\LearnCPlusPlus\01-黑马\02-代码手敲\05-核心编程\01-全局区.cpp(37,44): warning C4311: “类型强制转换”: 从“int *”到“int”的指针截断
-E:\01-code\08-LearnCPlusPlus\LearnCPlusPlus\01-黑马\02-代码手敲\05-核心编程\01-全局区.cpp(37,44): warning C4302: “类型强制转换”: 从“int *”到“int”截断
-E:\01-code\08-LearnCPlusPlus\LearnCPlusPlus\01-黑马\02-代码手敲\05-核心编程\01-全局区.cpp(38,44): warning C4311: “类型强制转换”: 从“int *”到“int”的指针截断
-E:\01-code\08-LearnCPlusPlus\LearnCPlusPlus\01-黑马\02-代码手敲\05-核心编程\01-全局区.cpp(38,44): warning C4302: “类型强制转换”: 从“int *”到“int”截断
-E:\01-code\08-LearnCPlusPlus\LearnCPlusPlus\01-黑马\02-代码手敲\05-核心编程\01-全局区.cpp(42,44): warning C4311: “类型强制转换”: 从“const char (*)[12]”到“int”的指针截断
-E:\01-code\08-LearnCPlusPlus\LearnCPlusPlus\01-黑马\02-代码手敲\05-核心编程\01-全局区.cpp(42,44): warning C4302: “类型强制转换”: 从“const char (*)[12]”到“int”截断
-E:\01-code\08-LearnCPlusPlus\LearnCPlusPlus\01-黑马\02-代码手敲\05-核心编程\01-全局区.cpp(43,44): warning C4311: “类型强制转换”: 从“const char (*)[13]”到“int”的指针截断
-E:\01-code\08-LearnCPlusPlus\LearnCPlusPlus\01-黑马\02-代码手敲\05-核心编程\01-全局区.cpp(43,44): warning C4302: “类型强制转换”: 从“const char (*)[13]”到“int”截断
-E:\01-code\08-LearnCPlusPlus\LearnCPlusPlus\01-黑马\02-代码手敲\05-核心编程\01-全局区.cpp(47,46): warning C4311: “类型强制转换”: 从“const int *”到“int”的指针截断
-E:\01-code\08-LearnCPlusPlus\LearnCPlusPlus\01-黑马\02-代码手敲\05-核心编程\01-全局区.cpp(47,46): warning C4302: “类型强制转换”: 从“const int *”到“int”截断
-E:\01-code\08-LearnCPlusPlus\LearnCPlusPlus\01-黑马\02-代码手敲\05-核心编程\01-全局区.cpp(48,46): warning C4311: “类型强制转换”: 从“const int *”到“int”的指针截断
-E:\01-code\08-LearnCPlusPlus\LearnCPlusPlus\01-黑马\02-代码手敲\05-核心编程\01-全局区.cpp(48,46): warning C4302: “类型强制转换”: 从“const int *”到“int”截断
-E:\01-code\08-LearnCPlusPlus\LearnCPlusPlus\01-黑马\02-代码手敲\05-核心编程\01-全局区.cpp(53,46): warning C4311: “类型强制转换”: 从“const int *”到“int”的指针截断
-E:\01-code\08-LearnCPlusPlus\LearnCPlusPlus\01-黑马\02-代码手敲\05-核心编程\01-全局区.cpp(53,46): warning C4302: “类型强制转换”: 从“const int *”到“int”截断
-E:\01-code\08-LearnCPlusPlus\LearnCPlusPlus\01-黑马\02-代码手敲\05-核心编程\01-全局区.cpp(54,46): warning C4311: “类型强制转换”: 从“const int *”到“int”的指针截断
-E:\01-code\08-LearnCPlusPlus\LearnCPlusPlus\01-黑马\02-代码手敲\05-核心编程\01-全局区.cpp(54,46): warning C4302: “类型强制转换”: 从“const int *”到“int”截断
+﻿  03-堆区.cpp
   05-核心编程.vcxproj -> E:\01-code\08-LearnCPlusPlus\LearnCPlusPlus\01-黑马\02-代码手敲\05-核心编程\x64\Debug\05-核心编程.exe
